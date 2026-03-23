@@ -2,6 +2,8 @@
 - Export data in Super Productivity
     - Settings -> Sync & Backup -> Import/Export -> Export Data
 - Rename export to 'vault.json'
+- Grab Todoist API Token
+    - Settings -> Integrations -> Developer
 - Run the script with the following parameters:
 ```
     python todoist_syncer.py --path <path to vault.json folder> --token <your token goes here> --subtasks True
