@@ -1,3 +1,19 @@
+# Usage
+- Export data in Super Productivity
+    - Settings -> Sync & Backup -> Import/Export -> Export Data
+- Rename export to 'vault.json'
+- Run the script with the following parameters:
+```
+    python todoist_syncer.py --path <path to vault.json folder> --token <your token goes here> --subtasks True
+```
+- The script should import all your tasks, create any projects necessary, add any notes and subtasks
+
+
+
+
+
+
+# OLD README BELOW
 # Todoist to Super Productivity Integration
 This is a simple python script for integrating Todoist and Super Productivity (SP).
 
